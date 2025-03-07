@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artifact Showcase - James Kruck, PhD</title>
+    <meta name="description" content="A collection of interactive educational artifacts and tools created by James Kruck">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4 sticky top-0 z-10" aria-label="Main Navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href="index.html" class="font-bold text-xl text-blue-600" aria-label="James Kruck, PhD Home Page">James Kruck, PhD</a>
+                </div>
+                <div class="hidden md:block" aria-label="Desktop Navigation">
+                    <div class="flex space-x-8">
+                        <a href="https://jameskruck.com" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                        <a href="https://jameskruck.github.io/projects/" class="text-gray-700 hover:text-blue-600 transition">Projects</a>
+                        <a href="#" class="text-blue-600 font-medium" aria-current="page">Artifacts</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-gray-600 p-2" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu, hidden by default -->
+        <div id="mobile-menu" class="mobile-menu" aria-label="Mobile Navigation">
+            <div class="flex flex-col space-y-3">
+                <a href="https://jameskruck.com" class="text-gray-700 hover:text-blue-600 transition py-2 px-3 rounded-md">Home</a>
+                <a href="https://jameskruck.com/projects.html" class="text-gray-700 hover:text-blue-600 transition py-2 px-3 rounded-md">Projects</a>
+                <a href="https://jameskruck.com/education.html" class="text-gray-700 hover:text-blue-600 transition py-2 px-3 rounded-md">Education</a>
+                <a href="https://jameskruck.com/teaching.html" class="text-gray-700 hover:text-blue-600 transition py-2 px-3 rounded-md">Teaching</a>
+                <a href="#" class="text-blue-600 font-medium py-2 px-3 rounded-md bg-blue-50">Artifacts</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h1 id="hero-heading" class="text-4xl font-bold text-gray-900 mb-4">
+                    Interactive Learning Artifacts
+                </h1>
+                <p class="text-xl text-gray-800 mb-6">
+                    A collection of educational tools, simulations, and interactive experiences designed to enhance learning.
+                </p>
+                <div class="flex flex-wrap gap-3 mb-8" aria-label="Key focus areas">
+                    <span class="tag tag-blue">Educational Technology</span>
+                    <span class="tag tag-purple">Interactive Learning</span>
+                    <span class="tag tag-green">Simulations</span>
+                    <span class="tag tag-orange">Digital Pedagogy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Main Content -->
+    <main id="main-content" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Artifacts Grid -->
+            <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-12 mb-12">
+             <!-- AI-Powered Design Overview Card -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden artifact-card">
+                <div class="p-8 bg-blue-100">
+                    <h2 class="text-3xl font-bold text-blue-700 mb-3">AI-Powered Educational Design</h2>
+                </div>
+                
+                <div class="p-8">
+                    <p class="text-gray-700 mb-4">
+                        These interactive learning experiences were created using AI collaboration without requiring traditional coding expertise. Unlike conventional course authoring tools that often have steep learning curves and limited flexibility, these artifacts were developed through conversational prompts with AI systems.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Each artifact demonstrates how educators can leverage AI to quickly create custom, interactive learning tools tailored to specific educational objectives. What would traditionally require teams of developers and instructional designers can now be produced with just a few thoughtful prompts, making advanced instructional technology accessible to a broader range of educators.
+                    </p>
+                </div>
+            </div>
+                <!-- Artifact 1: Forklift Simulator -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden artifact-card">
+                    <div class="p-8 bg-blue-600">
+                        <h2 class="text-3xl font-bold text-white mb-3">Forklift Safety Simulation</h2>
+                        <div class="flex flex-wrap gap-2 mb-3">
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Safety Training</span>
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Decision Making</span>
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Risk Assessment</span>
+                        </div>
+                    </div>
+                    
+                    <div class="iframe-container">
+                        <iframe src="https://forkliftsim.vercel.app/" title="Forklift Safety Simulation" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="p-8">
+                        <p class="text-gray-700 mb-4">
+                            An interactive educational tool that puts learners in the role of a safety consultant investigating warehouse hazards. Users conduct investigations, identify safety risks (blind corners, damaged racking, etc.), implement controls within a limited budget ($50,000), and experience the consequences of their decisions through simulated outcomes.
+                        </p>
+                        <p class="text-gray-700 mb-4">
+                            This gamified approach to safety training engages learners in practical decision-making that mirrors real-world safety management challenges in industrial settings with forklift operations.
+                        </p>
+                        <a href="https://forkliftsim.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-700 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                            Open in New Window
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Artifact 2: Horace Epode 5 Interactive Analysis -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden artifact-card">
+                    <div class="p-8 bg-purple-600">
+                        <h2 class="text-3xl font-bold text-white mb-3">Horace Epode 5 Interactive Analysis</h2>
+                        <div class="flex flex-wrap gap-2 mb-3">
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Classical Literature</span>
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Literary Analysis</span>
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Latin Poetry</span>
+                        </div>
+                    </div>
+                    
+                    <div class="iframe-container">
+                        <iframe src="https://horace-three.vercel.app/" title="Horace Epode 5 Interactive Analysis" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="p-8">
+                        <p class="text-gray-700 mb-4">
+                            This web-based tool explores the dual nature of Horace's Epode 5 from both horror and satirical perspectives. Users can toggle between these interpretative frameworks to better understand the poem's tonal complexity through section-by-section analysis of the original Latin text, English translation, and scholarly interpretations.
+                        </p>
+                        <p class="text-gray-700 mb-4">
+                            The tool breaks down the poem into four key sections (Opening Scene, Canidia's Ritual, Boy's Transformation, Final Lament) and provides detailed context on the boy's transformation from helpless victim to prophetic figure. It also connects the poem to Roman philosophical views on death and curse poetry traditions, highlighting how Horace deliberately plays with genre expectations.
+                        </p>
+                        <a href="https://horace-three.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 text-white font-semibold px-4 py-2 rounded-md hover:bg-purple-700 transition focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
+                            Open in New Window
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Artifact 3: AI Concept Explainer -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden artifact-card">
+                    <div class="p-8 bg-green-600">
+                        <h2 class="text-3xl font-bold text-white mb-3">AI Concept Explainer</h2>
+                        <div class="flex flex-wrap gap-2 mb-3">
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Generative AI</span>
+                            <span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Educational Support</span>
+                        </div>
+                    </div>
+                    
+                    <div class="iframe-container">
+                        <iframe src="https://loto-zeta.vercel.app/" title="AI Concept Explainer" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="p-8">
+<p class="text-gray-700 mb-4">
+    An interactive lockout/tagout (LOTO) safety scenario that guides users through critical workplace safety decisions. This simulation presents learners with five key decision points covering the complete LOTO process: preparation and notification, power isolation, identification and tagging, energy verification, and safe restoration.
+</p>
+<p class="text-gray-700 mb-4">
+    The tool provides immediate feedback on decisions, calculates a safety score, and highlights critical mistakes that could lead to simulated workplace incidents. Color-coded visual cues and clear explanations reinforce proper LOTO procedures, making it an effective training tool for industrial safety programs.
+</p>
+<p class="text-gray-700 mb-4">
+    With its professional interface and evidence-based design, this scenario transforms what would typically be passive safety training into an engaging decision-making experience that has real consequences - without the real-world risks.
+</p>
+                        <a href="https://loto-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-600 text-white font-semibold px-4 py-2 rounded-md hover:bg-green-700 transition focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
+                            Open in New Window
+                        </a>
+                    </div>
+                </div>
+
+
+            <!-- Information Section -->
+            <section class="bg-blue-50 rounded-lg p-6 border border-blue-100">
+                <h2 class="text-2xl font-bold mb-4">About These Artifacts</h2>
+                <p class="mb-4">
+                    These interactive learning artifacts were created to provide engaging, accessible educational experiences that complement traditional teaching methods. Each tool is designed with specific learning objectives in mind while supporting various learning preferences and needs.
+                </p>
+                <p class="mb-4">
+                    What makes these artifacts unique is the streamlined creation process. Through collaborative prompting with AI, I was able to design, develop, and deploy sophisticated interactive learning tools without writing code myself. This approach dramatically reduces the time and technical barriers typically associated with creating custom educational technology.
+                </p>
+                <p class="mb-4">
+                    The artifacts are hosted on Vercel, allowing for seamless embedding and integration into various learning environments. They can be accessed directly through this showcase page or opened in a new window for a full-screen experience.
+                </p>
+                <p>
+                    All tools are designed with accessibility in mind, following WCAG guidelines to ensure they're usable by the widest possible audience of learners.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">© 2025 James Kruck, PhD. All rights reserved.</p>
+            <p class="text-gray-400 text-sm">
+                Designed with a focus on accessibility and inclusive design principles.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button 
+        id="scrollToTopBtn" 
+        class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        aria-label="Scroll to top"
+    >
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuButton.addEventListener('click', () => {
+            const expanded = menuButton.getAttribute('aria-expanded') === 'true';
+            menuButton.setAttribute('aria-expanded', !expanded);
+            mobileMenu.classList.toggle('open');
+        });
+        
+        // Scroll to top functionality
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.style.opacity = '1';
+            } else {
+                scrollToTopBtn.style.opacity = '0';
+            }
+        });
+        
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Add new artifact functionality
+        document.getElementById('add-artifact-btn').addEventListener('click', function() {
+            const title = document.getElementById('artifact-title').value.trim();
+            const url = document.getElementById('artifact-url').value.trim();
+            const description = document.getElementById('artifact-description').value.trim();
+            const color = document.getElementById('artifact-color').value;
+            const tags = document.getElementById('artifact-tags').value.trim();
+            
+            if (!title || !url || !description) {
+                alert('Please fill in all required fields (title, URL, description)');
+                return;
+            }
+            
+            // Create tags array from comma-separated string
+            const tagArray = tags.split(',').map(tag => tag.trim()).filter(tag => tag);
+            
+            // Create new artifact card
+            const artifactsGrid = document.querySelector('.grid');
+            const newArtifact = document.createElement('div');
+            newArtifact.className = 'bg-white rounded-lg shadow-md overflow-hidden artifact-card';
+            
+            // Generate tag HTML
+            let tagsHTML = '';
+            tagArray.forEach(tag => {
+                tagsHTML += `<span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">${tag}</span>`;
+            });
+            
+            newArtifact.innerHTML = `
+                <div class="p-8 bg-${color}-600">
+                    <h2 class="text-3xl font-bold text-white mb-3">${title}</h2>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        ${tagsHTML || '<span class="bg-white bg-opacity-20 text-white text-xs px-2 py-1 rounded">Interactive</span>'}
+                    </div>
+                </div>
+                
+                <div class="iframe-container">
+                    <iframe src="${url}" title="${title}" allowfullscreen></iframe>
+                </div>
+                
+                <div class="p-8">
+                    <p class="text-gray-700 mb-4">
+                        ${description}
+                    </p>
+                    <a href="${url}" target="_blank" rel="noopener noreferrer" class="inline-block bg-${color}-600 text-white font-semibold px-4 py-2 rounded-md hover:bg-${color}-700 transition focus:outline-none focus:ring-2 focus:ring-${color}-500 focus:ring-offset-2">
+                        Open in New Window
+                    </a>
+                </div>
+            `;
+            
+            // Add the new artifact to the grid
+            artifactsGrid.appendChild(newArtifact);
+            
+            // Clear form
+            document.getElementById('artifact-form').reset();
+            
+            // Scroll to the new artifact
+            newArtifact.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+
+        // Store artifacts in localStorage
+        function saveArtifacts() {
+            // Implementation would go here in a real application
+            console.log('Artifacts would be saved to localStorage or a database');
+        }
+
+        // Load artifacts from localStorage
+        function loadArtifacts() {
+            // Implementation would go here in a real application
+            console.log('Artifacts would be loaded from localStorage or a database');
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load any saved artifacts
+            loadArtifacts();
+        });
+    </script>
+</body>
+</html>
